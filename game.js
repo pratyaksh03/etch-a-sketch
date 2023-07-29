@@ -20,9 +20,9 @@ function createGrid() {
           div.addEventListener("mouseover", fillGrid);
         }
       }
-    } //else {
-      //alert("Enter a number less than or equal to 100");
-    //}
+    } else {
+      alert("Enter a number less than or equal to 100");
+    }
   }
   
 function fillGrid(event) {
